@@ -11,3 +11,36 @@ h1 {
 }
 
 
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+li {
+    list-style: none;
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin: 10px; 
+    max-width: 400px; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  justify-content: right;
+  margin-right: 10px;
+  float: right;
+  margin-left: 100px;
+
+}
+
+h2 {
+  margin: 0;
+}
